@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    background: #131314;
+ 
+
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #ch4t {
+    height: 100%;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  
+  input {
+    width: 600px;
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-family: Chakra Petch;
+    color: #161414;
+    background: #302C2C;
+  }
+  
+  button {
+    width: 600px;
+    height: 50px;
+    font-size: 14px;
+    background: #8A2424;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: #DED6D6;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .messages {
+    width: 600px;
+    height: 400px;
+    margin: 20px 0;
+    background: linear-gradient(180deg, #0D0C0C 0%, rgba(13, 12, 12, 0) 100%);
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 14px;
+    color: #4A8C49;
+    font-family: Chakra Petch;
+  }
+
+  .message strong {
+    color: #786868;
+    font-family: Rubik Mono One;
+
+  }
+
+
