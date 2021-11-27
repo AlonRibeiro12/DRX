@@ -53,7 +53,7 @@
 
 
   <script type="text/javascript">
-    let socket = io('https://wizardly-johnson-82759f.netlify.app/');
+    let socket = io();
 
     function renderMessage(message) {
       $('.messages').append('<div class = "message"><strong>' + message.author + '</strong>:' + message.message + '</div>');
